@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    display: flex;
+    gap: 14px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #1B1B1B;
+}
+
+.category a {
+   text-decoration: none;
+    color: #1B1B1B;
+}
+
+.category a {
+    border-bottom: transparent 1px solid;
+}
+
+.category a:hover {
+    border-bottom: black 1px solid;
+}
+
+body {
+    font-family: 'Apple SD Gothic Neo';
+}
+
+.container_2 {
+    position: fixed;
+    width: 300px;
+    height: 100vh;
+    background-color: rgb(242, 243, 245);
+    padding: 60px 20px 60px 20px;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container_3 {
+    height: auto;
+    margin-left: 300px;
+    background-color: rgb(255, 255, 255);
+    padding: 60px 20px 60px 90px;
+}
+
+.footer {
+    width: 100%;
+    padding: 60px 10px 30px 10px;
+    border-top: 1px solid #acacac;
+    font-size: 13px;
+}
+
+.video {
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.video video {
+    margin-bottom: 12px;
+}
+
+.highlight {
+    width: fit-content;
+    font-weight: bold;
+    box-shadow: inset 0 -20px 0 #ff8e8e;
+    margin-bottom: 20px;
+}
+
+.description {
+    width: fit-content;
+    margin-bottom: 15px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.recommend_list {
+    width: 30%;
+    height: 85vh;
+    position: fixed;
+    top: 60px;
+    right: 60px;
+    border: 1.25px solid #c4c4c4;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.cipher {
+    width: 100%;
+    height: auto;
+    flex-shrink: 0;
+    border-radius: 20px;
+}
+
+.recommend_playlist {
+    height: 3000px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.music {
+    width: 100%;
+    justify-content: space-between;
+    border-bottom: 1px solid #acacac;
+    padding: 10px 15px 10px 15px;
+    
+    display: flex;
+    align-items: center;
+}
+
+.thumbnail {
+    width: 70px;
+    height: auto;
+    border-radius: 8px;
+}
+
+ .dots {
+   height: 24px;
+}
+
+.pic_n_title {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.artist {
+    color: #8f8f8f;
+}

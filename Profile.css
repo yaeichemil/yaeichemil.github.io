@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    display: flex;
+    gap: 14px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #1B1B1B;
+}
+
+.category a {
+   text-decoration: none;
+    color: #1B1B1B;
+}
+
+.category a {
+    border-bottom: transparent 1px solid;
+}
+
+.category a:hover {
+    border-bottom: black 1px solid;
+}
+
+body {
+    font-family: 'Apple SD Gothic Neo';
+}
+
+.container_2 {
+    position: fixed;
+    width: 300px;
+    height: 100vh;
+    background-color: rgb(242, 243, 245);
+    padding: 60px 20px 60px 20px;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container_3 {
+    height: auto;
+    margin-left: 300px;
+    background-color: rgb(255, 255, 255);
+    padding: 50px 0px 60px 40px;
+}
+
+.profile_img {
+    width: 450px;
+    height: 450px;
+}
+
+.profile_name {
+    margin-bottom: 32px;
+}
+
+.profile {
+    margin-bottom: 55px;
+}
+
+.playlist img {
+    width: 100%;
+}
+
+.footer {
+    width: 100%;
+    padding: 60px 10px 30px 10px;
+    border-top: 1px solid #acacac;
+    font-size: 13px;
+}

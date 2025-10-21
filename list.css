@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    display: flex;
+    gap: 14px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #1B1B1B;
+}
+
+.category a {
+   text-decoration: none;
+    color: #1B1B1B;
+}
+
+.category a {
+    border-bottom: transparent 1px solid;
+}
+
+.category a:hover {
+    border-bottom: black 1px solid;
+}
+
+body {
+    font-family: 'Apple SD Gothic Neo';
+}
+
+.container_1 {
+    width: 100%;
+}
+
+.container_2 {
+    position: fixed;
+    width: 300px;
+    height: 100vh;
+    background-color: rgb(242, 243, 245);
+    padding: 60px 20px 60px 20px;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container_3 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px 40px;
+    margin-left: 300px;
+}
+
+.footer {
+    width: 100%;
+    padding: 60px 10px 30px 10px;
+    border-top: 1px solid #acacac;
+    font-size: 13px;
+}
+
+.kyaaru {
+    width: 50%;
+    display: flex;
+    gap: 8px;
+    margin-bottom: 21px;
+}
+
+.kyaaru p {
+    font-size: 13px;
+    margin-top: 24px;
+    margin-right: 24px;
+}
+
+.kyaaru img {
+    max-width: 100%;
+    height: 300px;
+    display: block;
+}
+
+
